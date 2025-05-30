@@ -1,0 +1,47 @@
+.hader-projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    .header-text-project{
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            color:  var(--mainColor);
+        }
+        h1{
+            font-weight: 600;
+            font-size: 40px;
+            span{
+                color:  var(--mainColor);
+            }
+        }
+    }
+}
+img.go-arrow{
+    width: 32px;
+    height: 32px;
+
+}
+@media screen and (max-width:992px){
+    .hader-projects{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        .header-text-project{
+            width:100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          padding: 0 40px;
+            h1{
+                font-weight:500;
+                font-size: 30px;
+                text-align: center;
+                padding: 0 20px 10px;
+            }
+        }
+        
+    }
+}

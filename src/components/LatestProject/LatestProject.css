@@ -1,0 +1,34 @@
+.container-projects{
+    padding: 0px 70px 70px ;
+   
+}
+
+.cards-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 50px;
+    margin-top: 56px;
+ 
+}
+
+@media screen and (max-width:992px){
+    .container-projects{
+        padding: 20px ;
+       
+    }
+    .card-container{
+        width:fit-content;
+    }
+    
+.cards-box{
+  margin: 0 auto;
+  width: 100%;
+ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+}
+@media screen and (max-width:500px){
+    .cards-box{
+       
+       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      } 
+ }

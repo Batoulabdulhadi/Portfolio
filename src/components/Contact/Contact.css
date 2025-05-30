@@ -1,0 +1,72 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px ;
+   
+    .box-user-info{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 76px;
+    }
+    .inputs-box{
+          width: 55vw;
+        input{
+            border-radius: 8px;
+            border:  0.3px solid #BEC0BF;
+            outline: none;
+            display: block;
+            width: 50%;
+           margin-bottom: 24px;
+           padding: 27px 32px;
+        }
+        .phone-input input{
+            width: 100%;
+        }
+        .name-and-email-inputs{
+            display: flex;
+            gap:26px;
+            width: 100%;
+        }
+    }
+}
+.message-area textarea{
+    height: 170px;
+    width: 100%;
+    outline: none;
+    padding: 16px 27px;
+    border:  0.3px solid #BEC0BF;
+    resize: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+input::placeholder , textarea::placeholder{
+
+   
+    color: #92929D;
+    font-weight: 400;
+    font-size: 16px;
+}
+@media screen and (max-width:992px){
+    .form-container{
+        flex-direction: column;
+        padding: 20px ;
+        .inputs-box{
+            width: 85vw;
+           
+        }
+        .box-user-info{
+            align-items: center;
+            gap:25px;
+        }
+    }
+   
+    
+    .box-user-info{
+        padding-bottom: 20px;
+    }
+  
+}

@@ -1,0 +1,162 @@
+.hero-light {
+    background-color: white; 
+    color: #000;
+  }
+  
+  .hero-dark {
+    background-color: #1B2431;
+    h1, p,span{
+      color: white;
+    }
+    
+  }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:38px;
+    height: 80vh;
+    flex: 1;
+  
+
+}
+.container-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 39%;
+    gap: 40px;
+    .intro{
+       
+        p{
+            font-weight: 500;
+            font-size: 20px;
+           color:  #0C96E2;
+           font-family: "Inter", sans-serif;
+        }
+        h1{
+            font-size: 60px;
+            span{
+                font-weight: 400;
+                font-size: 55px;
+            }
+        }
+    }
+    .overview{
+            font-weight: 400;
+            font-size: 16px;
+           
+    }
+    
+}
+
+.square{
+width:35vw;
+height: 40vh;
+border-radius: 40px;
+background-color: #CAE0EB;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+img{
+    width: 100%;
+     height: 130%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('/public/assets/images/backGr.svg');
+     background-size: contain;
+     background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+}
+.follow-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.follow{
+    writing-mode: vertical-rl;
+    transform: rotate(360deg); 
+}
+.blue-line{
+    width: 1px;
+    height:100px;
+    background-color:  #0C96E2;
+}
+.facebook,.insta ,.linkedin ,.twitter{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+     background-color:#0C96E2;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+@media screen and (max-width:992px){
+    .hero{
+        justify-content: center;
+        flex-direction: column;
+       height: 100%;
+    
+     /* padding: 0px 70px; */
+     padding-top: 30px;
+    gap: 0;
+        .square{
+           
+            width:70vw;
+            height: 30vh;
+            border-radius: 5px;
+            img{
+               
+                height: 90%; 
+               margin: 10px auto;
+            }
+        }
+    }
+    .follow-sec{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .follow{
+            writing-mode:horizontal-tb;
+            transform: rotate(0deg); 
+        }
+        .blue-line{
+            width:0px;
+           
+        }
+       
+    }
+    .description{ 
+        width: 100%; 
+        gap: 20px;
+        .intro{
+
+        p{
+            font-weight: 300;
+            font-size: 16px;
+           color:  var(--mainColor);
+           font-family: "Inter", sans-serif;
+        }
+        h1{
+            font-size: 30px;
+            span{
+                font-weight: 200;
+                font-size: 30px;
+            }
+        }
+    }}
+  
+}

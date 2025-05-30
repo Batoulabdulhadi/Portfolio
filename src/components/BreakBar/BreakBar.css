@@ -1,0 +1,40 @@
+.break-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:3px #3d3d3d dashed;
+    width: 100%;
+    position: relative;
+}
+.external-circle{
+    background-color: azure;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid  #1D2130;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   
+}
+.internal-circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid   #1D2130;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+.bold-circle{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color:  #1D2130 ;
+}
+@media screen and (max-width:992px){
+    .break-bar{
+        padding-top: 10px;
+    }
+}

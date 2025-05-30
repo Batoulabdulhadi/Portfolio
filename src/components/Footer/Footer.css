@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 70px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(97, 91, 85);
+    
+    .social-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        .footer-social{
+            border-radius: 50%;
+        }
+    }
+}
+.footer-icon{
+    fill: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:992px){
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 40px;
+       
+    }
+}
