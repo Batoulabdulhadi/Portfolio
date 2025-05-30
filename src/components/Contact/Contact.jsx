@@ -8,9 +8,9 @@ const Contact = ({contactRef}) => {
        <HeadTitleSec titleSec="Contact"  titleDetails="Let’s Discuss Your " spanWord="Projects"/>
         <div className='form-container'>
             <div className='box-user-info'> 
-             <ContactInfo socialIcon="/public/assets/images/telephone.svg" contactInfo="Call me" moreDetailsInfo="+963988136449"/>
-             <ContactInfo socialIcon="/public/assets/images/msg.svg" contactInfo="Email me" moreDetailsInfo="batoulabdulhadi1@gmail.com"/>
-             <ContactInfo socialIcon="/public/assets/images/new-location.png" contactInfo="Address" moreDetailsInfo="Homs,Syria"/>     
+             <ContactInfo socialIcon="/assets/images/telephone.svg" contactInfo="Call me" moreDetailsInfo="+963988136449"/>
+             <ContactInfo socialIcon="/assets/images/msg.svg" contactInfo="Email me" moreDetailsInfo="batoulabdulhadi1@gmail.com"/>
+             <ContactInfo socialIcon="/assets/images/new-location.png" contactInfo="Address" moreDetailsInfo="Homs,Syria"/>     
             </div>
             <div className='inputs-box'>
                 <div className='name-and-email-inputs'>

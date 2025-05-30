@@ -6,42 +6,42 @@ import './LatestProject.css'
 const LatestProject = ({educationRef}) => {
   
   const lastProjects =[{
-    projectImage:'/public/assets/images/EduePressBlue.png',
+    projectImage:'/assets/images/EduePressBlue.png',
       projectTitle:"EduPress Project",
        projectTools:"Html-Css3-Vanilla javscript",
        id:1
   }
 ,
 {
-  projectImage:"/public/assets/images/blogsBlue.png",
+  projectImage:"/assets/images/blogsBlue.png",
   projectTitle:"Blogs Project",
    projectTools:"Html-Css3-Vanilla React",
   
    id:2
 },
 {
-  projectImage:"/public/assets/images/toDoAppBlue.png",
+  projectImage:"/assets/images/toDoAppBlue.png",
   projectTitle:"To Do App",
    projectTools:"Html-Css3-javscript",
 
    id:3
 },
 {
-  projectImage:"/public/assets/images/traveProject.png",
+  projectImage:"/assets/images/traveProject.png",
   projectTitle:"manage Post",
    projectTools:"Html-Css3-Vanilla javscript",
 
    id:4
 },
 {
-  projectImage:"/public/assets/images/skiingBlue.png",
+  projectImage:"/assets/images/skiingBlue.png",
   projectTitle:"Skiing Project",
    projectTools:"Html-Css3-Vanilla ",
 
    id:5
 },
 {
-  projectImage:"/public/assets/images/cochStoreBlue.png",
+  projectImage:"/assets/images/cochStoreBlue.png",
   projectTitle:"Coche Project Project",
    projectTools:"Html-Css3-Vanilla javscript",
 

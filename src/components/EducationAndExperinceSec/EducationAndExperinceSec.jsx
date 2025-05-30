@@ -5,15 +5,28 @@ const EducationAndExperinceSec = ({educationRef}) => {
   return (
     <div className='container'>
       <div className='all-edu-sec' ref={educationRef}>
-        <img src="../../../public/assets/images/top-rigt-bg-side.svg" className='top-right-img'/>
+        <img src="/assets/images/top-rigt-bg-side.svg" className='top-right-img'/>
         <div className="edu-holder">
         <div className="title-sec">
             <p>Education and Experience</p>
             <h1>Education & Experience</h1>
         </div>
         <div className='box-information'>
-        <EduAndExpDetailes className="right-side-experiance" titleParagraph1="Experince Designer" firstParagraph="User Experience (UX) Design: Understanding user behavior and analyzing data to create effective user flows.User Interface (UI) Design: Applying design principles to build modern and intuitive interfaces." titleParagraph2="Frontend Developer"  secParagraph="I am passionate about building technology-driven solutions that enhance user interaction and solve real-world challenges in innovative ways." />
-        <EduAndExpDetailes titleParagraph1="Experince Designer" firstParagraph="Front-End Development: Developing dynamic web applications using HTML, CSS, JavaScript, and React.js.Cross-functional Collaboration: Working closely with designers and developers to enhance the overall user experience." titleParagraph2="Frontend Developer"  secParagraph="Former intern at Darrebni Software Company and current intern at Vica Software Company as front end developer , I am studying Informatics Engineering with a specialization in Software Engineering and Information Systems in my fourth year at Al-Baath University in Homs.
+        <EduAndExpDetailes className="right-side-experiance" titleParagraph1=" Internship Experience" firstParagraph="Front-End Developer Intern – Darabni Company (6 months)Built responsive web pages using HTML, CSS, and JavaScriptCollaborated with the UI/UX team to implement user-friendly designsParticipated in Agile sprints and improved teamwork and planning skillsFront-End Developer Intern – VICA Company (6 months)Developed interactive interfaces using React.js and JavaScriptImproved front-end code quality following clean code standardsUsed Git for version control and collaborative development
+" />
+        <EduAndExpDetailes titleParagraph1=" Current Role" firstParagraph=" UI/UX Designer Intern – VICA Company (Jan 2024 – Present)
+Designing user interfaces and prototypes using Figma
+Creating wireframes, mockups, and conducting usability testing
+Collaborating with developers to ensure design accuracy and optimal user experience.
+" />
+        <EduAndExpDetailes titleParagraph1=" Academic Background" firstParagraph=" Informatics Engineering – Software Engineering
+University of Homs – 4th Year Student (Expected Graduation: 2026)
+Specialized in software engineering with a focus on front-end development and UI/UX design
+Involved in academic projects using modern web technologies
+" />
+       <EduAndExpDetailes titleParagraph1="Academic Project" firstParagraph="Currently developing a platform to facilitate the exchange of design resources among architecture students
+Implementing responsive front-end functionality with HTML, CSS, and JavaScript
+Aiming to enhance resource accessibility and collaboration in academic environments
 " />
         </div>
  

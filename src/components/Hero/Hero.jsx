@@ -14,7 +14,7 @@ const Hero = ({profileImg , firstMedia , secMedia , thirdMedia,homeRef }) => {
   
         <p className='overview'>Frontend Developer crafting seamless, intuitive, and high-performance web experiences through clean code and modern technologies.</p>
         
-        <a href="/public/assets/files/cv.pdf" download="cv.pdf" target='_blank'>
+        <a href="/public/assets/files/Batoul_AbdulHadi_CV..pdf" download="cv.pdf" target='_blank'>
                <button className='cv-download primary-btn' >Download CV</button>
         </a>
       </div>

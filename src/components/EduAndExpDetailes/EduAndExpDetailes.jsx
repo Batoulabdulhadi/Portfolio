@@ -5,7 +5,7 @@ const EduAndExpDetailes = ({titleParagraph1,firstParagraph, titleParagraph2 ,sec
     
     <div className='experiance-and-edu'>
     <div className='img-separator'>
-        <img src='../../../public/assets/images/image-sepaaretor.png'/>
+        <img src='/assets/images/image-sepaaretor.png'/>
     </div>
     <div className='info-detailes-box'>
         <div className='specific-info'>

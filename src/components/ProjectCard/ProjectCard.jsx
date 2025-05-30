@@ -11,7 +11,7 @@ const ProjectCard = ({projectImage , projectTitle, projectTools }) => {
           <h2>{projectTitle}</h2>
           <p className='project-tools' >{projectTools}</p>
           </div>
-        <img src="../../../public/assets/images/go-project.svg"/>
+        <img src="/assets/images/go-project.svg"/>
         </div>
       
     </div>
